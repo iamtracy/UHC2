@@ -92,6 +92,10 @@ Callout
 
 ***************************/
 
+.about-title {
+    padding-bottom: 0;
+}
+
 .callout {
     border-radius: $callout-border-radius;
     .callout-inner.success {
