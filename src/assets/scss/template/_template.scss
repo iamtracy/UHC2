@@ -140,12 +140,13 @@ Buttons
 
 .button {
     font-weight: $global-font-weight;
-    &.watch {
-        background: $white;
-        border: 1px solid $primary-color-light;
+    &.success {
         &:hover {
-            border: 1px solid $primary-color-light;
+            border-color: $primary-color-light;
         }
+    }
+    &.watch {
+        color: $white;
     }
 }
 
